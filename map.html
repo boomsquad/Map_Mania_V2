@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Map Mania</title>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+        <link rel="stylesheet" href="map-mania.css">
+        <script src="map-mania.js"></script>
+    </head>
+
+    <body onload="initApplication()">
+        <h1>Map Mania</h1>
+
+        
+        Hint: <input id="hint" type="text" value="" size="50" disabled>
+        <br>
+        Score: <input id="score" type="text" value="" size="2" disabled>
+        <br>
+
+        <div id="myMapID"></div>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDcfmndHH2MVkf3omrXKcrh5RxBMyD2h_Y&callback=initMap&v=weekly" async></script>
+
+        <br>
+        <button id="cheat" onclick="cheatCode()">Cheat Code</button>
+
+        <strong id="win"></strong>
+        
+    </body>
+</html>

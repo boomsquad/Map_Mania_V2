@@ -1,0 +1,21 @@
+h1 {color: blue;}
+
+#intro {text-align: center;
+    font-size: 21px;}
+
+#start {font-size: 18px;
+    background-color: lightblue;
+    border-radius: 8px;
+    position: absolute;
+    left: 50%;}
+
+#cheat{background-color: rgb(247, 119, 119);}
+
+#start:hover {background-color: rgb(187, 233, 250)}
+
+html, body {height: 100%;
+    margin: 0;
+    padding: 0;}
+
+#myMapID {height: 90%;
+    width: 99%;}
